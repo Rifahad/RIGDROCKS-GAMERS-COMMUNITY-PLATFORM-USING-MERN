@@ -2,3 +2,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+  cursor: none;
+}
+
+
+/* Additional CSS */
+.left-content > *,
+.right-content {
+  width: 50%;
+}
+
+.left-content > * {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .left-content {
+    display: none;
+  }
+  .right-content {
+    padding-left: 15px;
+  }
+}
+
+.header-section {
+  @apply text-center py-4 px-24;
+}
+
+.gsap-logo {
+  left: 1rem;
+  right: unset;
+}

@@ -3,11 +3,13 @@ import BlueLady from "../assets/Characters/BlueLady.png";
 import Footer from "../Components/User/Footer";
 import Lines from "../Components/User/Lines";
 import { CgScrollV } from "react-icons/cg";
+import Cursor from "../Components/User/Cursor";
 
 function Home() {
   return (
     <>
-      <Header />
+      <Cursor />
+      <Header borderColor="#59959F" />
       <div className="flex w-full h-screen  bg-white">
         <div className="h-full w-[25%] bg-transparent flex items-center justify-center">
           <img src={BlueLady} alt="blueLady" />
@@ -24,8 +26,8 @@ function Home() {
             journey through the worlds we create and conquer."
           </p>
           <button className="btn btn-primary">Get Started </button>
-          <CgScrollV className="animate-bounce text-4xl"/> 
-          <Lines color={"blue"} />
+          <CgScrollV className="animate-bounce text-4xl" />
+          <Lines color={"cyan"} />
         </div>
         <div className="h-full w-[25%] bg-transparent flex items-center justify-center">
           <img
@@ -35,6 +37,7 @@ function Home() {
           />
         </div>
       </div>
+      <div className="h-[600px] w-full bg-black "></div>
       <Footer />
     </>
   );
