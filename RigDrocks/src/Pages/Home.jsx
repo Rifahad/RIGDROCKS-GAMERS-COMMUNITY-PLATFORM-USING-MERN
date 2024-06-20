@@ -8,7 +8,6 @@ import Cursor from "../Components/User/Cursor";
 function Home() {
   return (
     <>
-      <Cursor />
       <Header borderColor="#59959F" />
       <div className="flex w-full h-screen  bg-white">
         <div className="h-full w-[25%] bg-transparent flex items-center justify-center">
@@ -39,7 +38,7 @@ function Home() {
       </div>
       <div className="h-[600px] w-full bg-black "></div>
       <Footer />
-    </>
+    </> 
   );
 }
 

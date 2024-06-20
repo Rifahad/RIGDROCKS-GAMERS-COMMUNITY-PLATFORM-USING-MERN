@@ -7,7 +7,6 @@ import Cursor from "../Components/User/Cursor";
 function Login() {
   return (
     <>
-    <Cursor/>
     <Header borderColor="#F2D68D" />
       <div className="w-full h-[800px] flex sm:flex-row flex-col bg-[url('./src/assets/Background/stars-bg.png')]">
         <div className="w-[50%] h-full">
@@ -18,11 +17,11 @@ function Login() {
             <h1 className="sm:text-3xl font-rye text-white">Login Here</h1>
             <div className="flex gap-3">
             <label htmlFor="" className="text-white">Username</label>
-            <input className="bg-transparent shadow-sm shadow-[#F2D68D] rounded" type="text" />
+            <input className="bg-transparent shadow-sm shadow-[#F2D68D] rounded text-[#F2D68D]" type="text" />
             </div>
             <div className="flex gap-3">
             <label htmlFor="" className="text-white">Password</label>
-            <input className="bg-transparent shadow-sm shadow-[#F2D68D] rounded" type="password" />
+            <input className="bg-transparent shadow-sm shadow-[#F2D68D] rounded text-[#F2D68D]" type="password" />
             </div>
             <span className="text-white flex items-end gap-2"> New user <a href="/signup" className="text-[#F2D68D]">Signup</a> <GiClick className="text-[#F2D68D]" /> </span>
 

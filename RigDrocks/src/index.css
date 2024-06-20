@@ -5,8 +5,8 @@
 
 
 body{
-  cursor: none;
-}
+    cursor: url("./assets/Logo/Cursor.png"), auto;
+  }
 
 
 /* Additional CSS */
